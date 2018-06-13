@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
+body
+{
+  font-family: 'Dancing Script';
+  background-color: #02010a;
+}
+/* Versión Desktop */
+#contenido
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  order: 0;
+  animation: miSlideIn 1s;
+}
+
+@-webkit-keyframes miSlideIn {
+    0%{margin-top: 160%;}
+    60%{margin-top: -5%;}
+    100%{margin-top: 0;}
+}
+
+@-moz-keyframes miSlideIn{
+  0%{margin-top: 150%;}
+  60%{margin-top: -5%;}
+  100%{margin-top: 0;}
+}
+
+header h1
+{
+  text-shadow: 2px 2px 2px #02010a;
+	color: white;
+}
+
+.item
+{
+  font-size: 23px;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+section #img-principal
+{
+  width: 100%;
+  height: 400px;
+  background-color: #82c3a6;
+  order: 2;
+}
+
+section #img-izquierda
+{
+  width: 50%;
+  height: 300px;
+  background-color: #d5c75f;
+  float: left;
+  order: 3;
+}
+
+section #img-derecha
+{
+  width: 50%;
+  height: 300px;
+  background-color: #d5c75f;
+  float: right;
+  order: 4;
+}
+
+.img-link{
+  text-decoration: none;
+  color: black;
+}
+
+#img-principal img
+{
+  height: 90%;
+  float: left;
+  margin: 2% 0 0 9%;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+
+#img-izquierda img
+{
+  height: 70%;
+  float: left;
+  margin: 5% 0 0 10%;
+  border: 1px solid;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+
+#img-izquierda img:hover{
+  transition: all 1s;
+  transform: rotate(10deg);
+
+}
+
+#img-izquierda h2
+{
+  text-align: center;
+  padding-top: 50%
+}
+
+#img-derecha img
+{
+  height: 70%;
+  float: right;
+  margin: 5% 10% 0 0;
+  border: 1px solid;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+
+#img-derecha img:hover{
+  transition: all 1s;
+  transform: translate(20px,-5px);
+  -webkit-animation-direction: reverse;
+  animation-direction: reverse;
+}
+
+#img-derecha h2
+{
+  text-align: center;
+  padding-top: 50%
+}
+
+#contacto
+{
+  width: 20%;
+  float: left;
+  text-align: left;
+  padding-left: 5%;
+}
+
+#terminos
+{
+  width: 25%;
+  float: right;
+  text-align: left;
+}
+
+#redes
+{
+  width: 25%;
+  float: right;
+  text-align: left;
+}
+
+#redes img
+{
+  height: 15px;
+  border-radius: 10px;
+}
+
+#derechos
+{
+  width: 25%;
+  float: right;
+  text-align: left;
+}
+
+section #img-paisajes
+{
+  width: 100%;
+  height: 300px;
+  background-color: #d5c75f;
+}
+
+section #paisajes
+{
+  width: 100%;
+  height: 300px;
+  background-color: #d5c75f;
+}
+
+#paisajes #item
+{
+  width: 33.3%;
+  float: left;
+}
+
+#paisajes #item img
+{
+  height: 130px;
+  float: left;
+  margin: 13px 0 0 39px;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+
+section #retratos
+{
+  width: 100%;
+  height: 300px;
+  background-color: #d5c75f;
+}
+
+#retratos #item
+{
+  width: 33.3%;
+  float: left;
+}
+
+#retratos #item img
+{
+  height: 130px;
+  float: left;
+  margin: 13px 0 0 39px;
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+}
+
+.img1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.img2{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img3{
+  -webkit-filter: sepia(90%);
+  filter: sepia(90%);
+}
+
+.img4{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+footer
+{
+  width: 100%;
+  height: 170px;
+  clear: both;
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  order: 5;
+}
+
+@media screen{
+  #contenido{
+    width: 900px;
+  }
+}
+
+/* -------------------------------Versíon Móvil-------------------------------- */
+
+@media (max-width:900px){
+  #contenido{
+    width: 98%;
+  }
+  header{
+    height: 170px !important;
+    display: flex;
+    flex-direction: column;
+  }
+  header #titulo{
+    width: 100% !important;
+    float: none;
+    order: 0;
+  }
+  header #titulo h1{
+    text-align: center;
+  }
+  header #menu{
+    width: 100% !important;
+    float: none;
+    order: 1;
+    text-align: center;
+  }
+/* ----- */
+  #img-principal{
+    height: 250px !important;
+  }
+  #img-principal img{
+  	margin-left: auto;
+    margin-right: auto;
+    height: 80% !important;
+    width: 90%;
+    margin: 3% 0 0 5%;
+  }
+
+  #img-izquierda{
+    width: 100% !important;
+  }
+  #img-izquierda img{
+  	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 210px;
+    margin: 5% 0 0 5% !important;
+  }
+  
+/* ----- */
+  #img-derecha{
+    width: 100% !important;
+  }
+  #img-derecha img{
+  	margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 210px;
+    margin: 1% 5% 0% -50% !important;
+  }
+  
+/* ----- */
+  #contacto{
+    width: 95% !important;
+    order: 0;
+  }
+  #terminos{
+    width: 95% !important;
+    float: left;
+    padding-left: 5%;
+    order: 1;
+  }
+  #redes{
+    width: 95% !important;
+    float: left;
+    padding-left: 5%;
+    order: 2;
+  }
+  #derechos{
+    width: 95% !important;
+    float: left;
+    padding-left: 5%;
+    order: 3;
+  }
+  /* ----- */
+  #paisajes{
+    height: 1350px !important;
+  }
+  #paisajes #item{
+    width: 100%;
+  }
+  #paisajes #item img{
+    height: 187px;
+    width: 90%;
+    margin: 5% 0 0 5% !important;
+  }
+
+  #retratos{
+    height: 1350px !important;
+  }
+  #retratos #item{
+    width: 100%;
+  }
+  #retratos #item img{
+    height: 197px;
+    width: 90%;
+    margin: 4% 0 0 4% !important;
+  }
+/* ----- */
+  footer{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 540px){
+#img-derecha h2, #img-izquierda h2{
+    display: none;
+  }
+}
+
+@media (max-width: 415px) and (min-width: 100px){
+#img-derecha h2, #img-izquierda h2{
+    display: none;
+  }
+}
