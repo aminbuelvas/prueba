@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale:1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- Encabezado del sitio -->
+      <header>
+        <div class="row position-relative-md">
+          <div class="col-md-3 col-xs-12 text-center">
+            <img src="img/mimusica-logo.png" alt="Logo de Mi Musica" class="logo">
+          </div>
+          <div class="col-md-4 col-md-offset-7 text-center col-xs-12 redes-sociales position-absolute-md">
+            <img src="img/yt-social.png" alt="pt-icono" class="social">
+          	<img src="img/fb-social.png" alt="yt-icono" class="social">
+            <img src="img/inst-social.png" alt="fb-icono" class="social">
+            <img src="img/pt-social.png" alt="tw-icono" class="social">
+            <img src="img/tw-social.png" alt="inst-icono" class="social">
+          </div>
+        </div>
+      </header>
+
+      <!-- Barra de navegación -->
+      <div class="row">
+        <nav id="menu-principal" class="navbar navbar-default">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+              <li class="activo text-center"><a href="#">Inicio</a></li>
+              <li><a class="text-center" href="#">Mi música</a></li>
+              <li><a class="text-center" href="#">Canciones</a></li>
+              <li><a class="text-center" href="#">Albumes</a></li>
+              <li><a class="text-center" href="#">Top 10</a></li>
+              <li><a class="text-center" href="#">Más escuchados</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Contenido -->
+      <div class="row contenido">
+
+        <!-- Artículos -->
+        <section class="col-md-8">
+            <article class="clearfix">
+              <a href="#" class="img-post pull-right">
+                <img src="img/mejor-musica.jpg" alt="Portada La mejor musica">
+              </a>
+              <h2 class="titulo-post">La mejor música del planeta</h2>
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="clearfix"></div>
+              <div class="row form-group">
+                <div class="col-xs-2 col-sm-1 text-right">
+                  <span class="glyphicon glyphicon-user comment-icon"></span>
+                </div>
+                <div class="col-xs-10 col-sm-11">
+                  <textarea name="name" class="form-control" placeholder="Comentario"></textarea>
+                </div>
+              </div>
+          </article>
+          <article class="clearfix">
+            <a href="#" class="img-post pull-left">
+              <img src="img/conciertos.jpeg" alt="Portada La mejor musica">
+            </a>
+            <h2 class="titulo-post">Los mejores conciertos</h2>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="clearfix"></div>
+            <div class="row form-group">
+              <div class="col-xs-2 col-sm-1 text-right">
+                <span class="glyphicon glyphicon-user comment-icon"></span>
+              </div>
+              <div class="col-xs-10 col-sm-11">
+                <textarea name="name" class="form-control " placeholder="Comentario"></textarea>
+              </div>
+            </div>
+        </article>
+        </section>
+
+        <!-- Barra lateral -->
+        <aside class="col-md-4 hidden-sm hidden-xs">
+          <div class="row">
+            <div class="col-xs-12">
+              <form>
+                <div class="form-group inner-addon left-addon">
+                  <i class="glyphicon glyphicon-search"></i>
+                  <input type="text" class="form-control" placeholder="Buscar">
+                </div>
+              </form>
+              <div class="list-group text-center">
+              <a href="#" class="list-group-item">Lorem ipsum</a>
+              <a href="#" class="list-group-item">dolor sit amet</a>
+              <a href="#" class="list-group-item">consectetur adipisicing</a>
+              <a href="#" class="list-group-item">sed do eiusmod</a>
+              <a href="#" class="list-group-item">tempor incididunt</a>
+              <a href="#" class="list-group-item">ut labore et</a>
+              <a href="#" class="list-group-item">dolore magna aliqua</a>
+              <a href="#" class="list-group-item">Ut enim ad</a>
+              <a href="#" class="list-group-item">minim veniam</a>
+              <a href="#" class="list-group-item">quis nostrud</a>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+
+    </div> <!-- Fin de container principal -->
+
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

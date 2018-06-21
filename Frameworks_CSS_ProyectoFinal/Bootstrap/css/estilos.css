@@ -1,0 +1,146 @@
+body{
+  background: #0d0e30;
+}
+
+#contenedor
+{
+  width: 95%;
+  border-color: blue;
+}
+
+
+/* -- Encabezado del sitio -- */
+
+header .row{
+  background: #ffffff;
+}
+
+header .logo{
+  max-width: 100%;
+}
+
+img.social{
+  width:40px;
+  height: 40px;
+}
+
+header .redes-sociales{
+  bottom: 0;
+  right: 0;
+  padding: 10px;
+}
+
+
+/* -- Barra de navegación -- */
+
+
+#menu-principal{
+  border-radius: 0;
+  background-color: #7d7fb2;
+  border-color: black;
+}
+
+#menu-principal a{
+  color:white;
+}
+
+#menu-principal li:hover{
+  background-color: #322e67;
+}
+
+#menu-principal li.activo{
+  background-color: #7d7fb2;
+}
+
+
+/*Contenido*/
+
+.contenido{
+  background: white;
+  padding: 10px;
+}
+
+.img-post{
+  max-width: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+.img-post img{
+  max-width: 100%;
+}
+
+.titulo-post{
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.comment-icon{
+  font-size: 50px
+}
+
+.contenido article{
+  border-bottom: 1px solid #dddddd;
+  margin-bottom: 10px;
+}
+
+
+/*Barra lateral*/
+
+/* Habilitando la posicion absoluta del icono en input */
+.inner-addon {
+    position: relative;
+}
+
+/* Estilos de icono en input */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* Alineando icono */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* Añadiendo padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+@media all and (max-width:768px){
+  .nav{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .img-post{
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+@media all and (min-width:992px){
+.position-relative-md{
+  position: relative;
+}
+
+.position-absolute-md{
+  position: absolute;
+}
+}
+
+@media (min-width: 768px){
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+    }
+}

@@ -1,0 +1,148 @@
+/*------------GENERALES--------------*/
+
+body{
+  background-image: url('../img/bg.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+/*------------ENCABEZADO-------------*/
+header{
+background-color: #282659;
+}
+
+header .container .row{
+  margin-bottom: 0;
+}
+
+.logo{
+  width: 100%;
+}
+
+@media all and (min-width:768px){
+  .logo{
+    margin-bottom: -75px;
+  }
+}
+
+.boton-menu{
+  margin-bottom: 5px;
+  font-size: 12px
+}
+
+/*--------CIERRE DE ENCABEZADO-------*/
+
+/*-----------CONTENIDO---------------*/
+
+/*GALERIA Y REDES SOCIALES*/
+
+.slogan{
+  font-size: 30px;
+  font-weight: bold;
+  color: #282659;
+  margin-top: 20px;
+}
+
+.social{
+  max-width: 90%;
+}
+
+/*ENTRADAS DEL BLOG*/
+
+.articulo{
+  padding: 20px;
+}
+
+.thumb{
+  max-width: 100%;
+}
+
+@media all and (min-width:768px){
+  .thumb{
+    max-width: 40%;
+    padding-right:10px;
+  }
+}
+
+.titulo-articulo{
+  font-size: 26px;
+  margin-top: 0;
+  font-weight: bold;
+  color: #282659;
+}
+
+.chip-icon{
+  float: right;
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+}
+
+.texto-articulo{
+  text-align: justify;
+}
+
+/*Comentarios en artículos*/
+
+.comentarios{
+  padding: 20px;
+  background-color: #282659;
+  color: white;
+}
+
+.titulo-comentario{
+  font-size: 22px;
+}
+
+.comentarios .input-field .prefix.active {
+ color: white;
+}
+
+.comentarios .input-field input + label {
+  color:white;
+}
+
+.comentarios .input-field textarea + label {
+  color:white;
+}
+
+.comentarios .input-field input:focus + label {
+  color:white;
+}
+
+.comentarios .input-field textarea:focus + label {
+  color:white;
+}
+
+.comentarios .input-field input {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+.comentarios .input-field textarea {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+.comentarios .input-field input:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+.comentarios .input-field textarea:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+/*Panel derecho de Autor*/
+
+.autor-caja{
+  padding: 20px;
+}
+
+.nombre-autor{
+  font-size: 26px;
+  font-weight: bold;
+  color: #282659;
+}
