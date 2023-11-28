@@ -1,0 +1,87 @@
+   <!DOCTYPE html>
+   <html ng-app="Registro de Estudiantes">
+      <head>
+         <meta charset="utf-8">
+         <title>Registro de Estudiantes</title>
+         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+         <link rel="stylesheet" href="css/jumbotron-narrow.css" type="text/css" media="all">
+         <link rel="stylesheet" href="css/estilos.css" type="text/css" media="all">
+      </head>
+      <body>
+         <div class="container">
+            <div class="header clearfix">
+               <h3 class="text-muted">Registro de Estudiantes</h3>
+            </div>
+            <div class="row">
+            <div class="row marketing">
+            
+            <div class="col-sm-3">
+               
+            </div>
+            
+            <div class="col-sm-6">
+                <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title">Registrar Estudiantes</h3>
+              </div>
+              <div class="panel-body">
+                <form class="form-horizontal">
+                  <div class="form-group form-group-sm">
+                     <label class="col-sm-2 control-label" for="codigo">Codigo</label>
+                     <div class="col-sm-10">
+                        <input class="form-control" type="text reset" id="codigo" placeholder="Codigo">
+                     </div>
+                  </div>
+                  <div class="form-group form-group-sm">
+                     <label class="col-sm-2 control-label" for="nombre">Nombre</label>
+                     <div class="col-sm-10">
+                        <input class="form-control" type="text" id="nombre" placeholder="Nombre">
+                     </div>
+                  </div>
+                  <div class="form-group form-group-sm">
+                     <label class="col-sm-2 control-label" for="nota">Nota</label>
+                     <div class="col-sm-10">
+                        <input class="form-control" type="text" id="nota" placeholder="Nota">
+                        <br>
+                        <button type="button" id="registro" class="btn btn-success pull-right">Registrar Estudiante</button>
+                     </div>
+                  </div>
+               </form>
+               
+              </div>
+            </div>
+                <div class="form-group form-group-sm aling-rigth-new">            
+                     <button type="button" id="promedio" class="btn btn-info">Promedio</button>
+                     <button type="button" id="notaMayor" class="btn btn-info">Nota Mayor</button>  
+                     <button type="button" id="notaMenor" class="btn btn-info">Nota Menor</button>              
+                  </div>     
+            </div>
+             <div class="col-sm-3">
+               
+            </div>
+            <div class="col-sm-3">
+               
+            </div>
+
+                  <table id="myTable"  class="table table-striped">
+                     <thead>
+                        <tr>
+                           <th>Codigo</th>
+                           <th>Nombre</th>
+                           <th>Nota</th>
+                        </tr>
+                     </thead>
+                     <tr></tr>
+               </div>
+               </table>
+            </div>
+            <footer class="footer">
+
+               <p></p>
+            </footer>
+         </div>
+         <!-- /container -->
+      </body>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/bootstrap.js"></script>
+   </html>
